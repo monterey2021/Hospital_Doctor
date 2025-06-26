@@ -92,13 +92,13 @@
                 </a>
             </div>
         </aside>
-        <div class="main p-3">
-            <div class="text-right">
+        <div class="main p-3 position-relative">
+            <div class="position-absolute top-0 end-0 mt-2 me-3 alert alert-primary py-2 px-3 mb-0" role="alert">
                  <div class="alert alert-primary text-center mb-4" role="alert">
                     Bienvenido, <?php echo $_SESSION['nombre_completo']; ?>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center mt-5">
                 <h1>
                     Sidebar Bootstrap 5
                 </h1>
