@@ -93,6 +93,11 @@
             </div>
         </aside>
         <div class="main p-3">
+            <div class="text-right">
+                 <div class="alert alert-primary text-center mb-4" role="alert">
+                    Bienvenido, <?php echo $_SESSION['nombre_completo']; ?>
+                </div>
+            </div>
             <div class="text-center">
                 <h1>
                     Sidebar Bootstrap 5
