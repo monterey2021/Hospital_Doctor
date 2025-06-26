@@ -23,7 +23,7 @@
                     <i class="lni lni-grid-alt"></i>
                 </button>
                 <div class="sidebar-logo">
-                    <a href="#">Hospital Doctor</a>
+                    <a href="#">HOSPITAL DOCTOR</a>
                 </div>
             </div>
             <ul class="sidebar-nav">
@@ -53,11 +53,11 @@
                 </li>
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
-                        <i class="lni lni-agenda"></i>
+                        <i class="lni lni-file-multiple"></i>
                         <span>Agenda Médica</span>
                     </a>
                 </li>
-                <li class="sidebar-item">
+                <!--<li class="sidebar-item">
                     <a href="#" class="sidebar-link has-dropdown collapsed" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="flase" aria-controls="auth">
                         <i class="lni lni-protection"></i>
                         <span>Auth</span>
@@ -103,7 +103,7 @@
                         <i class="lni lni-cog"></i>
                         <span>Setting</span>
                     </a>
-                </li>
+                </li>-->
             </ul>
             <div class="sidebar-footer">
                 <a href="#" class="sidebar-link">
