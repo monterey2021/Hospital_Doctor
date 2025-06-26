@@ -12,10 +12,9 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
         <?php
-        session_start();/*Reanudar sesion*/
+        session_start();
         ?>
 </head>
-
 <body>
     <div class="wrapper">
         <aside id="sidebar">
@@ -30,8 +29,8 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
-                        <i class="lni lni-user"></i>
-                        <span>Perfil</span>
+                        <i class="lni lni-clipboard-text"></i>
+                        <span>Citas</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -101,7 +100,7 @@
             </div>
             <div class="text-center mt-5">
                 <h1>
-                    Sidebar Bootstrap 5
+                    Menú principal
                 </h1>
             </div>
         </div>
@@ -111,5 +110,4 @@
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
