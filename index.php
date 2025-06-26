@@ -29,14 +29,32 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
-                        <i class="lni lni-clipboard-text"></i>
+                        <i class="lni lni-clipboard"></i>
                         <span>Citas</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
+                        <i class="lni lni-plus"></i>
+                        <span>Pacientes</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-briefcase-plus-1"></i>
+                        <span>Médicos</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
                         <i class="lni lni-agenda"></i>
-                        <span>Task</span>
+                        <span>Especialidades</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-agenda"></i>
+                        <span>Agenda Médica</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -90,7 +108,7 @@
             <div class="sidebar-footer">
                 <a href="#" class="sidebar-link">
                     <i class="lni lni-exit"></i>
-                    <span>Logout</span>
+                    <span>Cerrar Sesión</span>
                 </a>
             </div>
         </aside>
