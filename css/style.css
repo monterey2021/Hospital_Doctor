@@ -23,7 +23,7 @@ body {
 .wrapper {
     display: flex;
 }
-
+    
 .main {
     min-height: 100vh;
     width: 100%;
@@ -31,6 +31,8 @@ body {
     transition: all 0.35s ease-in-out;
     background-color: #fafbfe;
 }
+
+
 
 #sidebar {
     width: 70px;
@@ -135,4 +137,59 @@ a.sidebar-link:hover {
 #sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
     transform: rotate(45deg);
     transition: all .2s ease-out;
+}
+
+.wrapperinicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d3b66;
+}
+
+.cont-formdeacceso {
+    background-color: #174375;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    max-width: 400px;
+    width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d3b66;
+    color: white;
+}
+
+input::placeholder {
+    color: #b0c4de;
+}
+
+.cont-botonacceso {
+    width: 100%;
+    background-color: #1a73e8;
+    border: none;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cont-botonacceso:hover {
+    background-color: #1669c1;
+}
+
+.icono-input, .toggle-password img {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: 20px;
+    filter: invert(1); /* Convierte íconos negros a blancos */
 }
