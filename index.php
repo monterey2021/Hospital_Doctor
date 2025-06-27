@@ -19,14 +19,13 @@ if ($_SESSION){
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="container px-4 text-center">
-            <div class="row gx-5">
-                <div class="col">
+        <div class="row g-0 text-center">
+                <div class="col-sm-6 col-md-8">
                     <div class="p-3">
                         <img src="img/logoprincipal.png" alt="logo de acceso" class="img-responsive"/>
                     </div>
                 </div>
-                <div class="col">
+                <div class="colcol-6 col-md-4">
                     <div class="p-3">
                         <form class="acceso-usuario" action="acceso.php" method="post">
                             <div class="cont-titulodeacceso" id="inicio">
@@ -57,7 +56,6 @@ if ($_SESSION){
                     </div>
                 </div>
             </div>
-        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
