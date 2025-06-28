@@ -26,7 +26,31 @@ if ($_SESSION){
                         <div class="bg-image"></div>
                     </div>
                     <div class="col-sm-10 col-lg-6 px-md-5 align-self-center mx-auto">
-                        
+                        <div class="text-center mb-4">
+                            <h6>Inicia sesión con tu cuenta</h6>
+                        </div>
+                        <div class="card border-0 round-3 px-md-5 py-2">
+                            <div class="card-header bg-white border-bottom-0 text-center">
+                                <img src="img/Hospital.png" alt="">
+                            </div>
+                            <div class="card-body pt-0">
+                                <form action="#" class="row g-3">
+                                    <div class="col-md-12">
+                                        <label for="exampleInputEmail" class="form-label">Correo Electrónico</label>
+                                        <span class="text-danger">*</span>
+                                        <input type="email" class="form-control rounded-0" id="exampleInputEmail" placeholder="correo@ejemplo.com">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="inputPassword5" class="form-label">Contraseña</label>
+                                        <span class="text-danger">*</span>
+                                        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Ingresa tu contraseña">
+                                    </div>
+                                    <a href="#" class="f-password">
+                                        <u>¿Olvidaste tu contraseña</u>
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
